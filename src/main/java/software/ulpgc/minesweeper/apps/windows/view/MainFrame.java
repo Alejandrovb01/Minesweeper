@@ -52,8 +52,8 @@ public class MainFrame extends JFrame {
             gameplayPanel.setVisible(false);
             ((CardLayout) centerPanel.getLayout()).show(centerPanel, "LOADING");
             toolbar.setVisible(false);
-            setLocationRelativeTo(null);
             pack();
+            setLocationRelativeTo(null);
         });
         return panel;
     }
